@@ -1,6 +1,4 @@
-import { readFileSync } from 'fs';
-import { start } from 'repl';
-import { updateBreak } from 'typescript';
+import { readFileSync } from 'fs'
 import { Requester } from './requester'
 import { Transaction } from './transaction'
 import { Writer } from './writer'
